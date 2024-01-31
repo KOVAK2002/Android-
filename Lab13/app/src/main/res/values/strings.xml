@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MojaAplikacija</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_surname">Surname</string>
+    <string name="hint_dob">Dob</string>
+    <string name="hint_hobby">Hoby</string>
+    <string name="hint_occupation">Occupation</string>
+    <string name="send_sms_button">Send sms</string>
+    <string name="message_template">Name: %s\nSurname: %s\nDob: %s\nHoby: %s\nOccupation: %s\n</string>
+</resources>

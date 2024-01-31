@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    >
+
+
+
+        <!-- TextView za prikaz sadržaja iz liste WorkViewModel-a -->
+        <TextView
+            android:id="@+id/textViewWorkList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Work List"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Button za ispis log poruke o duljini liste iz WorkViewModel-a -->
+        <Button
+            android:id="@+id/buttonLogLength"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log Length"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Button za omogućavanje transakcije na WorkFragment -->
+    <Button
+        android:id="@+id/buttonGoToWorkFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to WorkFragment" />
+
+
+</LinearLayout>

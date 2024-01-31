@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MojaAplikacija</string>
+    <string name="hint_name">Ime</string>
+    <string name="hint_surname">Prezime</string>
+    <string name="hint_dob">Datum rođenja</string>
+    <string name="hint_hobby">Omiljeni hobi</string>
+    <string name="hint_occupation">Zanimanje</string>
+    <string name="send_sms_button">Pošalji SMS</string>
+    <string name="message_template">Ime: %s\nPrezime: %s\nDatum rođenja: %s\nOmiljeni hobi: %s\nZanimanje: %s\n</string>
+</resources>

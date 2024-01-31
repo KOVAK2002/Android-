@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kviz Aplikacija</string>
+    <string name="question1">2 + 2 = 4 (točno ili netočno)?</string>
+    <string name="question2">Glavni grad Francuske je London (točno ili netočno)?</string>
+    <string name="question3">Planeta Mars je crvena. (Točno / Netočno)?</string>
+    <string name="question4">Elvis Presley je poznat kao "Kralj Rock and Rolla". (Točno / Netočno)?</string>
+    <string name="question5">Na Zemlji ima dva Mjeseca. (Točno / Netočno)?</string>
+    <string name="correct_answer">Točno</string>
+    <string name="incorrect_answer">Netočno</string>
+    <string name="true_button">Točno</string>
+    <string name="false_button">Netočno</string>
+    <string name="Help_button">Help</string>
+</resources>

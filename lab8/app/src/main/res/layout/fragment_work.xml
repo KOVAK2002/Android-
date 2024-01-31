@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextView koji prikazuje tekst "Title" -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- EditText u koji će se upisivati naslov posla -->
+    <EditText
+        android:id="@+id/editTextWorkTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter work title"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- TextView koji prikazuje tekst "Details" -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- CheckBox s textom "Solved" -->
+    <CheckBox
+        android:id="@+id/checkBoxSolved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solved"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button za spremanje vrijednosti na listu u ViewModel-u -->
+    <Button
+        android:id="@+id/buttonSaveWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Work"/>
+    <Button
+        android:id="@+id/toListFragmentBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To list fragment"/>
+
+
+</LinearLayout>
